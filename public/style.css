@@ -1,0 +1,62 @@
+body{
+  background:#eee;
+  text-align:center;
+}
+
+.container{
+  margin:0 auto;
+  width:80%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.box{
+  background:#fff;
+  border:1px solid black;
+  margin-top:1rem;
+  text-align:left;
+  padding:1rem;
+  border-radius: 5px;
+}
+
+
+.button{
+  display:flex;
+}
+
+.button a{
+  text-decoration:none;
+  color:#000;
+  font-weight:bold;
+  background:gray;
+  padding:0.5rem;
+}
+
+.button form{
+  margin-left:1rem;
+}
+
+.button form.deleteButton input{
+  border:none;
+  padding:0.6rem;
+  font-weight:bold;
+  background:gray;
+}
+
+
+form.adding input{
+  box-sizing: border-box;
+  width:100%;
+  padding:1rem;
+  border:1px solid rgba(0,0,0,0.2);
+  margin-top:1rem;
+  border-radius:5px;
+}
+
+form.updateForm{
+  display:none;
+  margin-bottom:1rem;
+}
+

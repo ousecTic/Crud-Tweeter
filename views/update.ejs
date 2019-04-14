@@ -1,0 +1,17 @@
+<% include ../partials/header %>
+
+<h1>Tweeter</h1>
+
+<section id="form">
+  <div class="container">
+    <h3>Update your post!</h3>
+    <form action="/<%= post._id %>" method="POST" class="adding">
+      <input type="text" value="<%= post.name %>" name="name">
+      <input type="text" value="<%= post.description %>" name="description">
+      <input type="submit">
+    </form>  
+  </div>
+  
+</section>
+
+<% include ../partials/footer %>
